@@ -29,9 +29,11 @@ footer {
   width: 100%;
 }
 .inner-conatainer img{
-  width: 308px;
-  margin: 5% 16%;
   display: block;
+  width: 308px;
+  margin: 0 auto;
+  border: 15px solid white;
+  
 }
 .middle-text{
     display: none;
@@ -42,3 +44,4 @@ footer {
     padding: 3% 0;
     font-weight: 700;
 }
+
