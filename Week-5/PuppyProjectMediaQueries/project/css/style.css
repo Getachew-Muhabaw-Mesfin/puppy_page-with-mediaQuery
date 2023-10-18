@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.page-wrapper {
+  margin: 0 auto;
+  padding: 0 5%;
+}
+/* Header */
+header,
+footer {
+  background: #085070;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+.page-title {
+  padding: 30px;
+}
+.copywrite {
+  padding: 45px;
+  font-size: 23px;
+  text-align: center;
+}
+.banner-img img {
+  width: 100%;
+}
+.inner-conatainer img{
+  width: 308px;
+  margin: 5% 16%;
+  display: block;
+}
+.middle-text{
+    display: none;
+}
+.section-title{
+    text-align: center;
+    font-size:calc(16px + 2vw);
+    padding: 3% 0;
+    font-weight: 700;
+}
