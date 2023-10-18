@@ -45,3 +45,30 @@ footer {
     font-weight: 700;
 }
 
+/* Media for Tablets*/
+@media (min-width:768px){
+    .page-wrapper,.two-images{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    footer, header{
+        text-align: center;
+    }
+}
+/* Media for starting form Laptops*/
+@media (min-width:992px){
+    .middle-text{
+        display: block;
+        border: 15px solid white;
+        background-color: rgb(227, 69, 95);
+        width: 308px;
+    }
+    .page-wrapper{
+        margin-top: 2%;
+    }
+    .two-images img{
+        display: flex;
+        border: 30px solid white;
+    }
+}
