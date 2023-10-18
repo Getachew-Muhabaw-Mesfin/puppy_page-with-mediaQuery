@@ -2,6 +2,7 @@
   --color-primary: #085070;
   --color-secondary: rgb(227, 69, 95);
   --color-white: #fff;
+  --fw:700;
 }
 * {
   margin: 0;
@@ -19,7 +20,7 @@ footer {
   background: var(--color-primary);
   text-align: center;
   color: var(--color-white);
-  font-weight: 700;
+  font-weight: var(--fw);
 }
 .page-title {
   padding: 30px;
@@ -45,7 +46,7 @@ footer {
   text-align: center;
   font-size: calc(16px + 2vw);
   padding: 3% 0;
-  font-weight: 700;
+  font-weight: var(--fw);
 }
 
 /* Media for Tablets*/
@@ -80,6 +81,6 @@ footer {
     text-align: center;
     padding: 38% 0;
     font-size: calc(16px + 1vw);
-    font-weight: 700;
+    font-weight: var(--fw);
   }
 }
